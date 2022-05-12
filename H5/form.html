@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulier</title>
+</head>
+<body>
+    <h1>Eerste formulier</h1>
+    <form action="index.php" method="POST">
+        <input type="text" name="Username" value="" required>
+        <input type="password" name="Password" value="" required>
+        <input type="email" name="E-mail" value="" required>
+        <input type="text" name="Adres" value="" required>
+        <input type="text" name="Zipcode" value="" required>
+        <input type="submit" name="Button" value="Submit"> <br> <br>
+        <select name="Katten[]" multiple> 
+            <option value="kat1">Kattenfoto 1</option>
+            <option value="kat2">Kattenfoto 2</option>
+            <option value="kat3">Kattenfoto 3</option>
+            <option value="kat4">Kattenfoto 4</option>
+            <option value="kat5">Kattenfoto 5</option>
+        </select>
+    </form>
+    <br>    
+    <form action="index2.php" method="POST">
+        <input type="email" name="username/email" value="" required>
+        <input type="password" name="password" value="" required>
+        <input type="submit" name="knop" value="Log in">
+    </form>
+    
+</body>
+</html>
