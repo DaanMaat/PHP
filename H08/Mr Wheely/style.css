@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.header{
+    width: 100vw;
+    height: 62vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.70)),
+    url("header.jpg");
+    background-size: 100%;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
